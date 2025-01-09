@@ -43,7 +43,7 @@ export default function AboutMe() {
         </div>
         <div className="relative flex justify-center items-center">
           <motion.img
-            src="public/about.png"
+            src="/images/about.png"
             alt="About Me"
             className="w-full max-w-sm sm:max-w-md lg:max-w-lg border-2 border-purple-500 shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-[0px_10px_15px_rgba(128,0,128,0.7)] hover:-translate-y-4"
             initial={{ opacity: 0, x: "100%" }} // Starts from right (offscreen)
