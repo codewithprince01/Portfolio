@@ -7,15 +7,17 @@ const experiences = [
     title: "Full Stack Developer",
     company: "Haxways",
     work: "Developed and enhanced frontend and backend using React and the MERN stack, ensuring responsiveness and cross-browser compatibility. Collaborated with designers to create user-friendly interfaces and optimized performance.",
-    tools: "React, MERN Stack, Git, GitHub, Tailwind CSS, Node.js, Express.js, MongoDB",
+    tools: "Next.js, React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Git, GitHub",
   },
   {
-    duration: "Oct 2023 - April 2024",
-    title: "Test Engineer",
-    company: "GlobalStep",
-    work: "Increased testing efficiency by 30% through script management. Deployed builds after QA cycles, wrote test cases, and maintained 98% bug identification accuracy on 'Marvel Strike Force.' Collaborated with US clients and used tools like JIRA and Confluence to track over 100+ bug fixes.",
-    tools: "JIRA, Confluence, Debug Consoles, Performance Tools, Bug Tracking Software, Scripts",
-  },
+    "duration": "April 2023 - Oct 2023",
+    "title": "Web Development Intern",
+    "company": "Techonical Infotech",
+    "work": "Developed responsive and optimized web pages, improving performance and reducing load times by 20%. Delivered a dynamic landing page for Dr. Tanveer Fatima's website, enhancing user engagement and search engine visibility with effective SEO strategies. Built reusable components with React.js, styled layouts using Bootstrap, and JavaScript.",
+    "tools": "Bootstrap,JavaScript, Git"
+  }
+  
+  
 ];
 
 const Experience = () => {

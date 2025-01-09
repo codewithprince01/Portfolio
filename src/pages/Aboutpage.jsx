@@ -25,7 +25,7 @@ export default function AboutMe() {
             />
           </div>
           <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-xs sm:max-w-md lg:max-w-lg mx-auto leading-relaxed">
-            Hi Everyone, I am <span className="text-indigo-400 font-semibold">Harshit Saini</span> from Dehradun, India.
+            Hi Everyone, I am <span className="text-indigo-400 font-semibold">Prince Saini</span> from Dehradun, India.
             <br />
             I am currently employed as a MERN Stack developer at{" "}
             <span className="text-purple-400 font-semibold">Haxways</span>.

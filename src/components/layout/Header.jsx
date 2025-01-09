@@ -71,7 +71,7 @@ export default function Header() {
 
       <div className="hidden md:flex items-center space-x-4">
       <a
-        href="https://github.com/codewithprince01?tab=repositories"
+        href="https://github.com/codewithprince01"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-purple-600 hover:scale-105 transition-transform duration-300 flex items-center justify-center"

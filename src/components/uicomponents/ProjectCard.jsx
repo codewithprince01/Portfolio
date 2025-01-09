@@ -6,15 +6,15 @@ const ProjectCard = ({
   images = [],
   title = "Default Title",
   description = "No description available",
+  githubLink = "#",
+  demoLink = "#",
 }) => {
   if (!Array.isArray(images)) {
     console.error("The `images` prop must be an array. Received:", images);
     return null; // Prevent the component from rendering
   }
 
-  // Add the first image to the end of the array for seamless looping
   const imagesWithLoop = [...images, images[0]];
-
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
@@ -22,7 +22,7 @@ const ProjectCard = ({
     if (images.length > 1) {
       const interval = setInterval(() => {
         handleNextImage();
-      }, 3000); // Wait for 3 seconds before transitioning to the next image
+      }, 3000);
 
       return () => clearInterval(interval);
     }
@@ -32,18 +32,17 @@ const ProjectCard = ({
     setIsTransitioning(true);
     setTimeout(() => {
       if (currentImageIndex === images.length - 1) {
-        // Skip the transition to create seamless effect
         setIsTransitioning(false);
         setCurrentImageIndex(0);
       } else {
         setCurrentImageIndex((prevIndex) => prevIndex + 1);
       }
-    }, 1500); // Match with transition duration
+    }, 1500);
   };
 
   return (
-    <div className="card bg-gradient-to-b from-purple-900 via-indigo-800 to-purple-700 text-white w-full max-w-sm h-[480px] shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 mx-auto relative">
-      <div className="relative w-[320px] h-[200px] overflow-hidden mx-auto mt-4">
+    <div className="card bg-gradient-to-b from-purple-900 via-indigo-800 to-purple-700 text-white w-full max-w-sm h-[550px] shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 mx-auto relative">
+      <div className="relative w-[320px] h-[200px] overflow-hidden mx-auto mt-4 rounded-lg">
         <div
           className={`absolute top-0 left-0 h-full w-full flex ${
             isTransitioning ? "transition-transform duration-[1500ms]" : ""
@@ -57,7 +56,7 @@ const ProjectCard = ({
               key={index}
               src={image}
               alt={`${title} ${index + 1}`}
-              className="w-full h-full object-cover flex-shrink-0"
+              className="w-full h-full object-cover flex-shrink-0  "
               style={{ width: "100%" }}
             />
           ))}
@@ -71,12 +70,22 @@ const ProjectCard = ({
           <p className="text-sm text-gray-300 mt-3">{description}</p>
         </div>
         <div className="absolute bottom-4 right-4 flex gap-3">
-          <button className="flex justify-center px-4 py-2 rounded-full bg-purple-600 hover:bg-purple-500 transition text-white font-semibold shadow-md">
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center px-4 py-2 rounded-full bg-purple-600 hover:bg-purple-500 transition text-white font-semibold shadow-md"
+          >
             <FaGithub className="h-6 mr-[5px]" /> GitHub
-          </button>
-          <button className="flex justify-center px-4 py-2 rounded-full bg-purple-600 hover:bg-purple-500 transition text-white font-semibold shadow-md">
+          </a>
+          <a
+            href={demoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center px-4 py-2 rounded-full bg-purple-600 hover:bg-purple-500 transition text-white font-semibold shadow-md"
+          >
             <TiDocumentText className="h-6 mr-[5px]" /> Demo
-          </button>
+          </a>
         </div>
       </div>
     </div>

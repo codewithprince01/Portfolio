@@ -9,6 +9,9 @@ import { DiMongodb } from "react-icons/di";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiMysql } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+
 
 export function CardHoverEffect() {
   return (
@@ -45,6 +48,10 @@ export const projects = [
     link: "#typescript",
   },
   {
+    icon: <RiNextjsFill />,
+    link: "#mnextjs",
+  },
+  {
     icon: <FaReact />,
     link: "#react",
   },
@@ -57,12 +64,16 @@ export const projects = [
     link: "#mongo",
   },
   {
-    icon: <RiNextjsFill />,
-    link: "#mnextjs",
-  },
-  {
     icon: <DiMysql />,
     link: "#mysql",
+  },
+  {
+    icon: <SiFirebase />,
+    link: "#firebase",
+  },
+  {
+    icon: <FaGitAlt />,
+    link: "#git",
   },
  
 ];
