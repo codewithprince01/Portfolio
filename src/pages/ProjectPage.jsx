@@ -23,7 +23,7 @@ export default function ProjectPage() {
       description:
         "AI Trip Planner is an advanced travel planning platform built using React, Firebase, Google Gemini and Google Authentication. The website allows users to easily plan their trips, discover destinations, and get personalized recommendations powered by artificial intelligence. With secure Google OAuth login, The platform also incorporates Shadcn to enhance the UI with beautiful, responsive design elements, ensuring a smooth and engaging user experience across all devices. AI Trip Planner provides travelers with a seamless journey from planning to execution.",
       githubLink: "https://github.com/codewithprince01/ai-trip-planner",
-      demoLink: "https://ai-trip-planner-orpin-three.vercel.app",
+      demoLink: "https://ai-traveler-planner.vercel.app/",
     },
     {
       images: ["MysteryMessage/home.jpg", "MysteryMessage/signIn.jpg","MysteryMessage/verification.jpg","MysteryMessage/dashboard.jpg", "MysteryMessage/sendMEssage.jpg"],
