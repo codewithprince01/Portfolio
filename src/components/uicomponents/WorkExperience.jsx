@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    duration: "April 2024 - Present",
+    duration: " Nov 2023 - Present",
     title: "Full Stack Developer",
     company: "Haxways",
     work: "Developed and enhanced frontend and backend using React and the MERN stack, ensuring responsiveness and cross-browser compatibility. Collaborated with designers to create user-friendly interfaces and optimized performance.",
     tools: "Next.js, React.js, Tailwind CSS, Node.js, Express.js, MongoDB, Git, GitHub",
   },
   {
-    "duration": "April 2023 - Oct 2023",
+    "duration": "July 2023 - Aug 2023",
     "title": "Web Development Intern",
     "company": "Techonical Infotech",
     "work": "Developed responsive and optimized web pages, improving performance and reducing load times by 20%. Delivered a dynamic landing page for Dr. Tanveer Fatima's website, enhancing user engagement and search engine visibility with effective SEO strategies. Built reusable components with React.js, styled layouts using Bootstrap, and JavaScript.",
