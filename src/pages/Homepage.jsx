@@ -116,7 +116,7 @@ const Homepage = () => {
       Let Me Introduce Myself
     </h2>
     <p className="text-lg md:text-xl max-w-4xl mx-auto md:mx-0 leading-relaxed">
-      As a passionate developer, I bring <span className="text-purple-500">1+ years of expertise in MERN stack development</span> coupled with <span className="text-purple-500">6 months of industry experience</span> as a Web Development Intern at Technical Infotech. These opportunities have empowered me to create scalable, user-focused web applications while ensuring top-notch quality standards.
+      As a passionate developer, I bring <span className="text-purple-500">1.5 years of expertise in MERN stack development</span> coupled with <span className="text-purple-500">6 months of industry experience</span> as a Web Development Intern at Technical Infotech. These opportunities have empowered me to create scalable, user-focused web applications while ensuring top-notch quality standards.
       <br />
       <br />
       My technical toolkit includes proficiency in programming languages such as <span className="text-purple-500">C</span>, <span className="text-purple-500">C++</span>, <span className="text-purple-500">JavaScript</span>, and <span className="text-purple-500">TypeScript</span>. I have honed my skills with modern frameworks and libraries, including <span className="text-purple-500">Next.js</span>, <span className="text-purple-500">React.js</span>, <span className="text-purple-500">Tailwind CSS</span>, <span className="text-purple-500">Node.js</span>, and <span className="text-purple-500">Express.js</span>, enabling me to design and develop exceptional user experiences.
