@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Resume = () => {
-  const resumeLink = "/PRINCE.pdf"; // Path to your resume PDF
+  const resumeLink = "public/PRINCE.pdf"; // Path to your resume PDF
 
   // Generate random dots
   const [dots, setDots] = useState([]);
@@ -57,7 +57,7 @@ const Resume = () => {
 
       <a
         href={resumeLink}
-        download="/PRINCE.pdf"
+        download="public/PRINCE.pdf"
         className="absolute bottom-6 bg-purple-700 text-white px-8 py-3 rounded-lg text-lg md:text-xl hover:bg-purple-600 hover:scale-105 transition-transform duration-300 z-10"
       >
         Download CV
