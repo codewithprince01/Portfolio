@@ -47,7 +47,7 @@ export default function Header() {
           </span>
           <span className="block w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></span>
         </Link>
-        <Link
+        {/* <Link
           to="/resume"
           className="flex flex-col items-center text-lg hover:text-purple-500 group"
         >
@@ -56,7 +56,7 @@ export default function Header() {
             <span>Resume</span>
           </span>
           <span className="block w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></span>
-        </Link>
+        </Link> */}
         <Link
           to="/contact-me"
           className="flex flex-col items-center text-lg hover:text-purple-500 group"
